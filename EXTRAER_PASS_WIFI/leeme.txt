@@ -1,0 +1,6 @@
+Para el uso de la script:
+1. No debe estar dentro de ningun directorio
+2. Debe existir el directorio "VIRUS_DENNIS"
+3. Debe ejecutarse con "PERMISOS DE ADMINISTRADOR"
+4. Se iran generando los archivos por fechas y se reemplazaran
+   los archivos "SAM Y SYSTEM" por los ultimos extraidos.

@@ -1,0 +1,23 @@
+[	"sentencia" 2>nul		]	Elimina el mensaje en consola despues de ejecutar una sentencia
+:: Ej. [	ipconfig 2>nul		]
+
+[	"sentencia" >nul		]	Elimina el mensaje en consola despues de ejecutar una sentencia
+::Ej. [	mov hola hola1 >nul		]
+
+[	%var:~a,b%			]	Extrae caracteres de la posicion "a", la cantidad de "b" caracteres	
+::Ej. [	set x= %var:~0,6%		]	entrada "var= hola mundo"	salida "x= hola m"
+
+[	if exist "DIRECTORIO" (codigo)	]	Si existe una variable o directorio
+::Ej. [	if exist "C:\Users" (codigo)	]	el "codigo se ejecuta"
+
+[  if not exist "DIRECTORIO" (codigo)	]	Si no existe una variable o directorio
+::Ej. [	if notexist "C:\Users" (codigo)	]	el "codigo se ejecuta"
+
+[	VOL "UNIDAD"			]	Mustra la Etiqueta de la Unidad USB y caracteristicas
+::Ej. [		VOL F:			]
+
+[	LABEL "UNIDAD" "NEW_NAME"	]	Cambia la etiqueta a la unidad USB
+::Ej. [	LABEL F: DENNIS_USB		]
+
+[		^			]	[^] Simbolo para que reconozca como cadela el caracter "|" 
+::Ej. [	ECHO S^|s) Salir call :salir	]	salida:= "S|s) Salir"

@@ -1,0 +1,4 @@
+1. Los archivos "COPIAR_USB" y "USB_COPIAR" deben ir juntos
+2. No se ejecuta con permisos de usuario
+3. La script crea una carpeta con la fecha hora y nombre de la USB
+4. USB_COPIAR ejecuta el .bat en segundo plano
