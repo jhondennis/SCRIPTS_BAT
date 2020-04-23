@@ -1,7 +1,9 @@
 # SCRIPTS en .BAT para Windows
 
 Algunos Scripts con funcionalidades imprescindibles para configuracion de redes y otros.
+
 Ejm.
+
      - = [ MENU ] = -
 
 1) Vaciar Cola de Impresion
